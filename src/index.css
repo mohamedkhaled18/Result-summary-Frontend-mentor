@@ -1,0 +1,62 @@
+:root {
+  /* Primary */
+  --light-red: 0, 100%, 67%;
+  --orangey-yellow: 39, 100%, 56%;
+  --green-teal: 166, 100%, 37%;
+  --cobalt-blue: 234, 85%, 45%;
+
+  /* Gradients */
+  /* background */
+  --light-slate-blue: hsl(252, 100%, 67%);
+  --light-royal-blue: hsl(241, 81%, 54%);
+  --gradient-primary: linear-gradient(
+    var(--light-slate-blue),
+    var(--light-royal-blue)
+  );
+  /* Circle */
+  --violet-blue: hsla(256, 72%, 46%, 1);
+  --persian-blue: hsla(241, 72%, 46%, 0);
+  --gradient-secondary: linear-gradient(
+    var(--violet-blue),
+    var(--persian-blue)
+  );
+
+  /* Neutral */
+  --white: hsl(0, 0%, 100%);
+  --pale-blue: hsl(221, 100%, 96%);
+  --light-lavender: hsl(241, 100%, 89%);
+  --dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  color: var(--dark-gray-blue);
+}
+
+div.Reaction {
+  background-color: hsla(var(--light-red), 10%);
+}
+div.Memory {
+  background-color: hsla(var(--orangey-yellow), 10%);
+}
+div.Verbal {
+  background-color: hsla(var(--green-teal), 10%);
+}
+
+div.Visual {
+  background-color: hsla(var(--cobalt-blue), 10%);
+}
+
+p.Reaction {
+  color: hsl(var(--light-red));
+}
+p.Memory {
+  color: hsl(var(--orangey-yellow));
+}
+p.Verbal {
+  color: hsl(var(--green-teal));
+}
+
+p.Visual {
+  color: hsl(var(--cobalt-blue));
+}
